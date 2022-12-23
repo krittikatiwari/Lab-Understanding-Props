@@ -1,0 +1,22 @@
+/* add your styles here */
+.img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1vh;
+    row-gap: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 1vh;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 3vw;
+}
+
+img {
+    width: 100%;
+    border-radius: 30px 30px 30px 30px;
+}
